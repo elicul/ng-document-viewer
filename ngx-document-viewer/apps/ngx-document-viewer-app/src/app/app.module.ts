@@ -6,15 +6,9 @@ import { AppComponent } from './app.component';
 import { NgxDocumentViewerModule } from 'ngx-document-viewer';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgxDocumentViewerModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, NgxDocumentViewerModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

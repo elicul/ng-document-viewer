@@ -8,9 +8,8 @@ describe('NgxDocumentViewerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NgxDocumentViewerComponent ]
-    })
-    .compileComponents();
+      declarations: [NgxDocumentViewerComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(NgxDocumentViewerComponent);
     component = fixture.componentInstance;
