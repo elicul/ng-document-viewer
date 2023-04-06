@@ -1,9 +1,7 @@
 import { NgModule } from '@angular/core';
-import { NgxDocumentViewerComponent } from './ngx-document-viewer.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
-  declarations: [NgxDocumentViewerComponent],
-  imports: [],
-  exports: [NgxDocumentViewerComponent],
+  imports: [CommonModule],
 })
 export class NgxDocumentViewerModule {}
