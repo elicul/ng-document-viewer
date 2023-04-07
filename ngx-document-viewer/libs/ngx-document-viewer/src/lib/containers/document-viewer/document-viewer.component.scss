@@ -1,0 +1,39 @@
+@import '~normalize.css';
+
+:host {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  min-height: calc(100vh - 75px);
+  max-height: calc(100vh - 75px);
+}
+
+.image-wrapper {
+  display: grid;
+  grid-column-gap: 0;
+  min-height: calc(100vh - 255px);
+  max-height: calc(100vh - 255px);
+}
+
+.expanded {
+  grid-template-columns: 200px 30px 1fr;
+}
+
+.unexpanded {
+  grid-template-columns: 1rem 30px 1fr;
+}
+
+.expander {
+  display: grid;
+  background-color: #eaeaeb;
+  cursor: pointer;
+}
+
+.expander:hover {
+  background-color: #d8d8d8;
+}
+
+i {
+  font-size: 30px;
+  color: #8c8c8d;
+  cursor: pointer;
+}

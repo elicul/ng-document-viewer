@@ -1,0 +1,20 @@
+<div class="spinner-content">
+  <header>
+  </header>
+  <div
+    class="image-wrapper"
+    [ngClass]="{ expanded: isExpanded, unexpanded: !isExpanded }">
+    <sidebar></sidebar>
+    <div class="expander" (click)="toggleSidebar()">
+      <a class="align-self-center justify-self-center">
+        <i
+          class="fa-solid"
+          [ngClass]="{
+                  'fa-angle-left': isExpanded,
+                  'fa-angle-right': !isExpanded
+                }"></i>
+      </a>
+    </div>
+    <image></image>
+  </div>
+</div>
